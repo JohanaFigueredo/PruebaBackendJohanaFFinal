@@ -54,11 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PruebaBackendDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PruebaBackendDataSet.xsd</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="fPrincipal.resx">
       <DependentUpon>fPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,17 +75,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="PruebaBackendDataSet.xsc">
-      <DependentUpon>PruebaBackendDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="PruebaBackendDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PruebaBackendDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="PruebaBackendDataSet.xss">
-      <DependentUpon>PruebaBackendDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
